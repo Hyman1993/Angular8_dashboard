@@ -22,6 +22,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ![Dashboard](https://github.com/Hyman1993/Angular8_dashboard/blob/master/app-image.png)
 
 ## The problems I met 
+
 1.error:
     Error occurs in the template of component DashboardComponent.
     src/app/modules/dashboard/dashboard.component.html:17:9 - error NG8001: 'app-widget-card' is not a known element:
@@ -30,9 +31,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
   原因分析及对策:app-widget-card这个组件是属于shared模块的，但是在layout模块里面用了它，因此需要将app-widget-card这个组件从shared模块中导出
 
-2. angular 创建 service
-    ng s service名
-    例：ng s modules/dashboard
-        将在modules目录下创建名为dashboard.service.ts 
-
-    注：providers关键字用来注入service服务
