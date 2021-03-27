@@ -1,4 +1,4 @@
-# Dashboard
+# Dashboard (2021.01.22 ~ 2021.03.28)
 
 This project was learned from [Angular 8 Admin Dashboard Panel from scratch using Angular Material, highcharts and flex-layout.](https://youtu.be/FP7Hs8lTy1k)
 
